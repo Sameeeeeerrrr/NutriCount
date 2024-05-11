@@ -1,0 +1,115 @@
+.navbarServicepage{
+    margin-top: -100px;
+    margin-bottom: 30px;
+
+}
+
+.servicebox{
+    background: white;
+    border-radius: 2px;
+    width: 800px;
+    height: 620px;
+    border-radius: 50px;
+    margin-bottom: -80px;
+}
+
+.outputbox{
+    margin-top: 10px;
+    overflow: auto;
+    width: 300px;
+    height: 450px;
+    border: .5px solid rgb(211, 209, 209);
+    margin-left: 250px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+
+}
+
+.outputbox::-webkit-scrollbar{
+    width: 0;
+}
+
+
+.fooditem{
+    padding: 10px;
+    padding-right: 10px;
+    border-radius: 3px;
+    border: .5px solid grey;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.amount{
+    padding: 10px;
+    border-radius: 3px;
+    border: .5px solid grey;
+    
+}
+
+.findbtn{
+    padding: 10px;
+    padding-left:  65px;
+    padding-right: 65px;
+    margin-left: 13.5px;
+    border-radius: 3px;
+    border: 0px solid grey;
+    color: white;
+    background: #4fda82;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.searchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    padding-right: px;
+    
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    padding: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.addpagebtn{
+    margin-left: 35px;
+    padding: 10px;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-bottom: 60px;
+    border-radius: 3px;
+    border: 0px solid grey;
+    color: white;
+    background: #4fda82;
+    cursor: pointer;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.dietpagebtn{
+    margin-left: 15px;
+    padding: 10px;
+    padding-left:  50px;
+    padding-right: 50px;
+    margin-bottom: 60px;
+    border-radius: 3px;
+    border: 0px solid grey;
+    color: white;
+    background: #4fda82;
+    cursor: pointer;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
