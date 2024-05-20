@@ -6,7 +6,7 @@ const apiRouter = express.Router()
 const serviceRouter = express.Router()
 const userRouter = express.Router()
 
-apiRouter.post('/bmranddiet', bmrAndDietHandler)
+apiRouter.post('/bmranddiet',AUTHENTICATION , bmrAndDietHandler)
 serviceRouter.post('/add', AUTHENTICATION, additemHandler)
 serviceRouter.post('/find', AUTHENTICATION, finditemHandler)
 serviceRouter.get('/all', AUTHENTICATION, allitemsHandler)
